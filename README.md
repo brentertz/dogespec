@@ -1,6 +1,8 @@
-# Dogespec
+# DogeSpec
 
-TODO: Write a gem description
+A dogified RSpec formatter that that spices up your specs with doge speak!
+
+such gem. wow.
 
 ## Installation
 
@@ -18,11 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run your specs using the following syntax:
+
+	rspec --format Dogespec::Formatter --color spec
+
+Or if you would like to make it your default RSpec formatter, create a `.rspec` file in your project root directory with the following contents:
+
+	--format Dogespec::Formatter
+	--color
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/dogespec/fork )
+1. Fork it ( http://github.com/brentertz/dogespec/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
